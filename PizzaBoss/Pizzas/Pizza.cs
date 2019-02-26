@@ -14,9 +14,6 @@ namespace PizzaBoss.Pizzas
            this.name = name;
        }
 
-       abstract public  double Price();
-       
- 
-       
+        public abstract double Price();
     }
 }

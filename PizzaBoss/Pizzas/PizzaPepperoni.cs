@@ -11,5 +11,10 @@ namespace PizzaBoss.Pizzas
         {
 
         }
+
+        public override double Price()
+        {
+            return 60;
+        }
     }
 }

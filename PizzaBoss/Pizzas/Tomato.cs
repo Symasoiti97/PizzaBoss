@@ -5,11 +5,17 @@ using System.Text;
 
 namespace PizzaBoss.Pizzas
 {
-    class Tomato:PizzaDecorator
+    class Tomato : PizzaDecorator
     {
-        public Tomato(string name, Pizza pizza) :base(name)
+        public Tomato(Pizza pizza) :base(pizza.name + ", c томатом", pizza)
         {
- 
+
         }
+
+        public override double Price()
+        {
+            return pizza.Price() + 5;
+        }
+
     }
 }

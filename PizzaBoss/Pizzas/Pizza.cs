@@ -7,7 +7,7 @@ namespace PizzaBoss.Pizzas
 {
    abstract class Pizza
     {
-       string name;
+       public string name;
 
        public Pizza(string name)
        {
@@ -15,5 +15,10 @@ namespace PizzaBoss.Pizzas
        }
 
         public abstract double Price();
+
+        public void PizzaStart()
+        {
+            Console.WriteLine("Пицца готовится");
+        }
     }
 }

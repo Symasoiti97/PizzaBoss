@@ -1,0 +1,7 @@
+D:\учеба\PizzaBoss\PizzaBoss\obj\x86\Debug\PizzaBoss.csprojAssemblyReference.cache
+D:\учеба\PizzaBoss\PizzaBoss\obj\x86\Debug\PizzaBoss.csproj.CoreCompileInputs.cache
+D:\учеба\PizzaBoss\PizzaBoss\bin\Debug\PizzaBoss.exe.config
+D:\учеба\PizzaBoss\PizzaBoss\bin\Debug\PizzaBoss.exe
+D:\учеба\PizzaBoss\PizzaBoss\bin\Debug\PizzaBoss.pdb
+D:\учеба\PizzaBoss\PizzaBoss\obj\x86\Debug\PizzaBoss.exe
+D:\учеба\PizzaBoss\PizzaBoss\obj\x86\Debug\PizzaBoss.pdb

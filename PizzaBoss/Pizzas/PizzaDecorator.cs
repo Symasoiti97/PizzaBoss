@@ -5,15 +5,14 @@ using System.Text;
 
 namespace PizzaBoss.Pizzas
 {
-    abstract class PizzaDecorator
+    abstract class PizzaDecorator : Pizza
     {
-        Pizza pizza;
+        protected Pizza pizza;
 
-        public PizzaDecorator(Pizza pizza)
+        public PizzaDecorator(string name, Pizza pizza):base(name)
         {
             this.pizza=pizza;
         }
 
-        
     }
 }

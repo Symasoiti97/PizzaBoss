@@ -2,19 +2,20 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace PizzaBoss.Pizzas
 {
-    class Tomato : PizzaDecorator
+    class PizzaNeapolitano : Pizza
     {
-        public Tomato(Pizza pizza) :base(pizza.name + ", c томатом", pizza)
+        public PizzaNeapolitano() : base("Пицца Неаполитана")
         {
 
         }
 
         public override double Price()
         {
-            return pizza.Price() + 5;
+            return 50;
         }
     }
 }

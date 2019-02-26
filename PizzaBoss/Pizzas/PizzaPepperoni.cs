@@ -7,14 +7,14 @@ namespace PizzaBoss.Pizzas
 {
     class PizzaPepperoni : Pizza
     {
-        public PizzaPepperoni() : base("Пицца паперони") 
+        public PizzaPepperoni() : base("Пицца Паперони") 
         {
 
         }
 
         public override double Price()
         {
-            return 60;
+            return 70;
         }
     }
 }

@@ -44,8 +44,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pizzas\BellPepper.cs" />
+    <Compile Include="Pizzas\Cheese.cs" />
+    <Compile Include="Pizzas\Chilli.cs" />
+    <Compile Include="Pizzas\Olives.cs" />
     <Compile Include="Pizzas\Pizza.cs" />
     <Compile Include="Pizzas\PizzaDecorator.cs" />
+    <Compile Include="Pizzas\PizzaMargherita.cs" />
+    <Compile Include="Pizzas\PizzaNeapolitano.cs" />
     <Compile Include="Pizzas\PizzaPepperoni.cs" />
     <Compile Include="Pizzas\Tomato.cs" />
     <Compile Include="Program.cs" />

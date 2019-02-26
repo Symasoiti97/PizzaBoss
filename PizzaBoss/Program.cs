@@ -14,6 +14,8 @@ namespace PizzaBoss
             Console.WriteLine($"{pizza.name} цена: {pizza.Price()}");
             pizza = new Tomato(pizza);
             Console.WriteLine($"{pizza.name} цена: {pizza.Price()}");
+            pizza = new Chilli(pizza);
+            Console.WriteLine($"{pizza.name} цена:{pizza.Price()}");
             Console.ReadKey();
         }
     }

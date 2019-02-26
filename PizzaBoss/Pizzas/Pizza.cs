@@ -16,9 +16,25 @@ namespace PizzaBoss.Pizzas
 
         public abstract double Price();
 
-        public void PizzaStart()
+        public void Prepare()
         {
             Console.WriteLine("Пицца готовится");
         }
+
+        public void Bake()
+        {
+            Console.WriteLine("Пицца печется");
+        }
+
+        public void Cut()
+        {
+            Console.WriteLine("Происходит нарезка пиццы");
+        }
+
+        public void Box()
+        {
+            Console.WriteLine("Происходит упаковка пиццы");
+        }
+
     }
 }
